@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/charles/Project/Data Structure/SingleLinkList/LinkedList.cpp
+iostream
+-
+LinkedList.h
+/Users/charles/Project/Data Structure/SingleLinkList/LinkedList.h
+
+/Users/charles/Project/Data Structure/SingleLinkList/LinkedList.h
+iostream
+-
+
+/Users/charles/Project/Data Structure/SingleLinkList/main.cpp
+iostream
+-
+LinkedList.h
+/Users/charles/Project/Data Structure/SingleLinkList/LinkedList.h
+
