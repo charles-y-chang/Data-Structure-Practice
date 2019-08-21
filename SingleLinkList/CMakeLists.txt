@@ -3,4 +3,4 @@ project(SingleLinkList)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SingleLinkList main.cpp LinkedList.h)
+add_executable(SingleLinkList main.cpp LinkedList.h LinkedList.cpp)

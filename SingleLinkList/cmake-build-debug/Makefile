@@ -123,6 +123,33 @@ SingleLinkList/fast:
 	$(MAKE) -f CMakeFiles/SingleLinkList.dir/build.make CMakeFiles/SingleLinkList.dir/build
 .PHONY : SingleLinkList/fast
 
+LinkedList.o: LinkedList.cpp.o
+
+.PHONY : LinkedList.o
+
+# target to build an object file
+LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/SingleLinkList.dir/build.make CMakeFiles/SingleLinkList.dir/LinkedList.cpp.o
+.PHONY : LinkedList.cpp.o
+
+LinkedList.i: LinkedList.cpp.i
+
+.PHONY : LinkedList.i
+
+# target to preprocess a source file
+LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/SingleLinkList.dir/build.make CMakeFiles/SingleLinkList.dir/LinkedList.cpp.i
+.PHONY : LinkedList.cpp.i
+
+LinkedList.s: LinkedList.cpp.s
+
+.PHONY : LinkedList.s
+
+# target to generate assembly for a file
+LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/SingleLinkList.dir/build.make CMakeFiles/SingleLinkList.dir/LinkedList.cpp.s
+.PHONY : LinkedList.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SingleLinkList"
+	@echo "... LinkedList.o"
+	@echo "... LinkedList.i"
+	@echo "... LinkedList.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
